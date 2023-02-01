@@ -1953,3 +1953,663 @@ a.back-to-top {
     border-radius: 50%;
     display: inline-block;
 }
+
+
+/* responsive 1200px */
+
+@media only screen and (max-width: 1200px) {
+    .header-navbar {
+        display: none;
+    }
+    .main-header {
+        max-width: 960px;
+    }
+    .hamburger-toggle {
+        display: block;
+    }
+    .hamburger-toggle i {
+        color: #ffffffb3;
+        border: 1px solid #9a9797bf;
+        padding: 10px 11px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    .responsive-navbar ul li {
+        padding: 12px 0;
+        border-bottom: 1px solid #e7e7e7;
+        padding-left: 21px;
+    }
+    .responsive-navbar {
+        max-width: 90%;
+        margin: 0 auto;
+        background: white;
+    }
+    .responsive-navbar ul {
+        list-style: none;
+    }
+    .responsive-navbar ul li {
+        padding: 12px 0;
+        border-bottom: 1px solid #e7e7e7;
+        padding-left: 21px;
+    }
+    .responsive-navbar ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .first-container {
+        height: 100%;
+    }
+    .image-banner-banner {
+        display: block;
+    }
+    ul.image-banner-box-2-facts-ul li:first-child {
+        left: 0px;
+    }
+    .image-banner-box-2 {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .image-banner-box-1 {
+        width: 100%;
+        text-align: center;
+    }
+    .image-banner-box-1-button-social-icon {
+        justify-content: center;
+    }
+    .main-image-banner {
+        padding: 100px 0;
+    }
+    h1.image-banner-box-1-heading {
+        font-size: 62px;
+    }
+    .box-welcome-to-my-world-a {
+        width: 50%;
+    }
+    /* third container */
+    .main-container-about-me {
+        display: block;
+    }
+    .main-container-about-me-box-1 {
+        margin-bottom: 144px;
+    }
+    img.about-me-box-1-image-2 {
+        left: 409px;
+        bottom: -95px;
+    }
+    .main-container-about-me-box-2 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .container-about-me-box-1:before {
+        left: 553px;
+        top: 101px;
+    }
+    .container-about-me-box-1:after {
+        left: 277px;
+        bottom: -56px;
+    }
+    /* fourth container  */
+    .fourth-container {
+        display: block;
+        max-width: 960px;
+    }
+    .fourth-container-box-1 {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .fourth-container-box-2 {
+        width: 100%;
+    }
+    .fifth-contaier-portfolio {
+        max-width: 960px;
+    }
+    .container-1-service {
+        width: 80%;
+    }
+    .main-box-container-2-service {
+        width: 50%;
+    }
+    .main-container-service {
+        max-width: 960px;
+    }
+    .container-why-work-with-me {
+        max-width: 960px;
+        display: block;
+    }
+    .main-box-1-why-work-with-me {
+        width: 100%;
+    }
+    .main-box-1-why-work-with-me-image {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    img.box-1-why-work-with-me-image {
+        width: 60%;
+    }
+    .main-box-2-why-work-with-me {
+        width: 100%;
+    }
+    .box-2-why-work-with-me {
+        padding-left: 0px;
+    }
+    .main-container-blog {
+        max-width: 960px;
+    }
+    .main-container-company-logo {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .main-container-contect {
+        max-width: 960px;
+    }
+    .footer {
+        max-width: 960px;
+    }
+}
+
+
+/* responsive 990 */
+
+@media only screen and (max-width:990px) {
+    .main-container-about-me-box-1 {
+        width: 70%;
+    }
+    img.about-me-box-1-image-2 {
+        left: 435px;
+    }
+    .main-container-about-me-box-2 {
+        width: 74%;
+    }
+    .fourth-container {
+        max-width: 720px;
+    }
+    .box-3-images-1 {
+        width: 50%;
+    }
+    .box-3-images-2 {
+        width: 50%;
+    }
+    .box-3-images-3 {
+        width: 50%;
+    }
+    .box-3-images-4 {
+        width: 50%;
+    }
+    .box-3-images-5 {
+        width: 50%;
+    }
+    .box-3-images-6 {
+        width: 50%;
+    }
+    .fifth-contaier-portfolio {
+        max-width: 720px;
+    }
+    .main-box-container-2-service {
+        width: 100%;
+    }
+    .container-why-work-with-me {
+        max-width: 720px;
+        display: block;
+    }
+    .main-box-1-testimonial {
+        width: 85%;
+    }
+    .main-container-blog {
+        max-width: 720px;
+    }
+    .main-blog-box {
+        display: block;
+    }
+    .main-blog-box-1 {
+        width: 100%;
+    }
+    .main-blog-box-2 {
+        width: 100%;
+    }
+    .main-container-company-logo {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .main-box-1-contect {
+        width: 70%;
+    }
+    .main-container-contect {
+        max-width: 720px;
+    }
+    .main-box-2-contect {
+        display: block;
+    }
+    .box-2-contect {
+        width: 90%;
+        margin: 40px;
+    }
+    .main-box-3-contect {
+        text-align: -webkit-center;
+    }
+    .box-3-contect {
+        display: block;
+    }
+    .main-box-3-contect-box-1 {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .main-box-3-contect-box-2 {
+        width: 90%;
+    }
+    .box-3-contect-box-1 {
+        margin: 0;
+    }
+    h2.box-3-contect-box-2-heading {
+        text-align: center;
+    }
+    .footer {
+        max-width: 720px;
+    }
+    .footer-content {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* desingn element display none */
+    img.design-element-second-container-1 {
+        display: none;
+    }
+    img.design-element-third-container-1 {
+        display: none;
+    }
+    img.design-element-third-container-2 {
+        display: none;
+    }
+    img.fifth-coontainer-design-element-1 {
+        display: none;
+    }
+    img.fifth-coontainer-design-element-2 {
+        display: none;
+    }
+    .main-header {
+        max-width: 720px;
+    }
+    .image-banner-box-2-img img {
+        width: 100%;
+    }
+    .main-image-banner {
+        padding: 150px 0;
+    }
+    ul.image-banner-box-2-facts-ul li:first-child {
+        left: -82px;
+    }
+    h1.image-banner-box-1-heading {
+        font-size: 58px;
+    }
+    .box-welcome-to-my-world-a {
+        width: 100%;
+    }
+    .image-banner-box-2-img:after {
+        display: none;
+    }
+    .main-container-about-me-box-1 {
+        width: 85%;
+        margin-bottom: 110px !important;
+        margin: 0 auto;
+    }
+    .main-container-about-me-box-2 {
+        width: 67%;
+    }
+    img.about-me-box-1-image-2 {
+        left: 335px;
+    }
+    .main-about-me-box-2 {
+        display: block;
+    }
+    .fourth-container {
+        max-width: 550px;
+    }
+    .box-3-images-1 {
+        width: 100%;
+    }
+    .box-3-images-2 {
+        width: 100%;
+    }
+    .box-3-images-3 {
+        width: 100%;
+    }
+    .box-3-images-4 {
+        width: 100%;
+    }
+    .box-3-images-5 {
+        width: 100%;
+    }
+    .box-3-images-6 {
+        width: 100%;
+    }
+    .fifth-contaier-portfolio {
+        max-width: 540px;
+    }
+    .main-container-service {
+        max-width: 540px;
+    }
+    .container-1-service {
+        width: 90%;
+    }
+    .container-why-work-with-me {
+        max-width: 540px;
+        display: block;
+    }
+    img.box-1-why-work-with-me-image {
+        width: 80%;
+    }
+    .main-box-1-testimonial {
+        width: 70%;
+    }
+    .main-container-blog {
+        max-width: 540px;
+    }
+    .blog-box-2 {
+        width: 90%;
+    }
+    .main-container-blog-heading-paragraph {
+        width: 70%;
+    }
+    .main-container-company-logo {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+    .main-container-contect {
+        max-width: 540px;
+    }
+    form.box-3-contect-box-2-main-form {
+        display: block;
+    }
+    .box-3-contect-box-2-form-main-input {
+        width: 100%;
+    }
+    .footer {
+        max-width: 540px;
+    }
+    .footer-copyright-policy {
+        display: block;
+    }
+    .footer-copyright {
+        margin-bottom: 20px;
+    }
+    .footer-content {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    img.about-me-box-1-image-2 {
+        width: 20%;
+        left: 350px;
+        bottom: -58px;
+    }
+    .main-container-about-me-box-1 {
+        margin-bottom: 100px;
+    }
+    .main-container-about-me-box-2 {
+        width: 85%;
+    }
+    h2.main-heading-about-me-box-2 {
+        font-size: 38px;
+    }
+    .container-about-me-box-1:before {
+        content: "";
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border-radius: 7px;
+        border: 5px solid #fd562a;
+        left: 30px;
+        top: 190px;
+    }
+    .container-about-me-box-1:after {
+        content: "";
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        background: #fd562a;
+        left: 332px;
+        bottom: -90px;
+        border-radius: 4px;
+    }
+    .container-about-me-box-1:after {
+        display: none;
+    }
+    .container-about-me-box-1::before {
+        display: none;
+    }
+    .fourth-container {
+        max-width: 400px;
+    }
+    h2.fourth-container-box-1-heading {
+        font-size: 40px;
+    }
+    .main-box-3-img {
+        margin: 0 30px;
+    }
+    .main-box-container-2-service {
+        text-align: left;
+    }
+    img.box-continer-2-service-logo {
+        padding-top: 34px;
+        padding-left: 32px;
+    }
+    .image-box-continer-2-service-logo {
+        margin-left: 0;
+    }
+    .container-why-work-with-me {
+        max-width: 100%;
+    }
+    .box-2-why-work-with-me {
+        padding: 0 30px;
+    }
+    .main-box-1-testimonial {
+        width: 90%;
+    }
+    .main-container-blog {
+        width: 90%;
+    }
+    .main-container-blog-heading-paragraph {
+        width: 90%;
+    }
+    a.blog-box-1-image-content-heading {
+        font-size: 25px;
+    }
+    .main-container-company-logo {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .design-element-img-1 {
+        display: none;
+    }
+    .design-element-img-2 {
+        display: none;
+    }
+    .design-element-img-3 {
+        display: none;
+    }
+    .design-element-img-4 {
+        display: none;
+    }
+    .design-element-img-5 {
+        display: none;
+    }
+    .seventh-container-design-element-1 {
+        display: none;
+    }
+    .seventh-container-design-element-2 {
+        display: none;
+    }
+    img.ninth-contianer-desing-element-2 {
+        display: none;
+    }
+    img.ninth-contianer-desing-element-1 {
+        display: none;
+    }
+    .ninth-contianer-desing-element-1 {
+        display: none;
+    }
+    .ninth-contianer-desing-element-2 {
+        display: none;
+    }
+    img.design-element-contect-1 {
+        display: none;
+    }
+    img.design-element-contect-2 {
+        display: none;
+    }
+    .main-container-contect {
+        max-width: 90%;
+    }
+    .footer-content {
+        width: 60%;
+    }
+    .footer-content {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .header-logo-img {
+        width: 66%;
+    }
+    .main-header {
+        padding: 20px;
+    }
+    h1.image-banner-box-1-heading {
+        font-size: 37px;
+        padding: 0 35px;
+    }
+    h1.image-banner-box-1-heading small {
+        font-size: 18px;
+    }
+    .image-banner-box-2-facts-ul {
+        display: none;
+    }
+    p.image-banner-box-1-paragraph {
+        font-size: 18px;
+        padding: 0 43px 35px;
+    }
+    li.image-banner-box-1-social-icon-click a {
+        margin: 0 18px;
+    }
+    a.image-banner-box-1-button {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .image-banner-box-1-button-social-icon {
+        flex-flow: column;
+    }
+    p.main-paragraph-welcome-to-my-world {
+        width: 90%;
+    }
+    .main-container-about-me-box-1 {
+        width: 80%;
+    }
+    img.about-me-box-1-image-1 {
+        width: 100%;
+    }
+    img.about-me-box-1-image-2 {
+        display: none;
+    }
+    .main-container-about-me-box-2 {
+        width: 85%;
+    }
+    h2.main-heading-about-me-box-2 {
+        font-size: 28px;
+    }
+    .fourth-container {
+        max-width: 330px;
+    }
+    h2.fourth-container-box-1-heading {
+        font-size: 26px;
+    }
+    a.blog-box-1-image-content-heading {
+        font-size: 22px;
+    }
+    .footer-content {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .header-logo-img {
+        width: 66%;
+    }
+    .main-header {
+        padding: 20px;
+    }
+    h1.image-banner-box-1-heading {
+        font-size: 37px;
+        padding: 0 35px;
+    }
+    h1.image-banner-box-1-heading small {
+        font-size: 18px;
+    }
+    .image-banner-box-2-facts-ul {
+        display: none;
+    }
+    p.image-banner-box-1-paragraph {
+        font-size: 18px;
+        padding: 0 43px 35px;
+    }
+    li.image-banner-box-1-social-icon-click a {
+        margin: 0 18px;
+    }
+    a.image-banner-box-1-button {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .image-banner-box-1-button-social-icon {
+        flex-flow: column;
+    }
+    p.main-paragraph-welcome-to-my-world {
+        width: 90%;
+    }
+    .forth-container-box-2-main-progress-bar h4 {
+        font-size: 14px;
+    }
+    .fourth-container {
+        max-width: 270px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .header-logo-img {
+        width: 66%;
+    }
+    .main-header {
+        padding: 20px;
+    }
+    h1.image-banner-box-1-heading {
+        font-size: 37px;
+        padding: 0 35px;
+    }
+    h1.image-banner-box-1-heading small {
+        font-size: 18px;
+    }
+    .image-banner-box-2-facts-ul {
+        display: none;
+    }
+    p.image-banner-box-1-paragraph {
+        font-size: 18px;
+        padding: 0 43px 35px;
+    }
+    li.image-banner-box-1-social-icon-click a {
+        margin: 0 18px;
+    }
+    a.image-banner-box-1-button {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .image-banner-box-1-button-social-icon {
+        flex-flow: column;
+    }
+    .design-element {
+        display: none;
+    }
+    h2.fourth-container-box-1-heading {
+        font-size: 26px;
+    }
+}
