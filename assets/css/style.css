@@ -424,6 +424,10 @@ ul.image-banner-box-2-facts-ul li:nth-child(2) {
 
 /* second container  */
 
+.second-container {
+    margin-top: 100vh;
+}
+
 img.design-element-second-container-1 {
     position: absolute;
     animation: Move 5s linear infinite;
